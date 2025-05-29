@@ -1,0 +1,3 @@
+config PACKAGE_geoview
+    bool "geoview support (custom override)"
+    default n
