@@ -1,0 +1,7 @@
+config PACKAGE_dns2socks-rust
+    tristate "dns2socks-rust support (custom override)"
+    default n # 或者 m，通常由依赖它的包（如 luci-app-ssr-plus）来决定是否选中
+    help
+      DNS server that forwards DNS requests to a SOCKS5 server.
+      This is the Rust implementation.
+      Usually selected as a dependency by other packages like luci-app-ssr-plus.
